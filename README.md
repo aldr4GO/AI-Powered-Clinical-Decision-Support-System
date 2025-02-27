@@ -17,10 +17,35 @@ pip install -r requirements.txt
 Refer to this link:
 https://ollama.com/
 
-## Run the app
-```
-uvicorn app.main:app --reload
-```
+Set up the Backend
+Create a virtual environment and install dependencies:
+# Create virtual environment
+python -m venv venv
+
+# Activate virtual environment
+# Windows
+venv\Scripts\activate
+# Mac/Linux
+source venv/bin/activate
+
+
+
+Set up AssemblyAI API key:
+1.	Create a .env file in the backend/ directory.
+2.	Add the following line, replacing your-api-key with your actual AssemblyAI key:
+ASSEMBLYAI_API_KEY=your-api-key
+Run the backend server:
+cd backend
+python app.py
+The Flask server should start running at: http://localhost:5000
+3. Set up the Frontend
+Navigate to the frontend directory and install dependencies:
+cd ../frontend
+npm install
+Start the Vite development server:
+npm run dev
+The React app should be live at: http://localhost:5173
+
 
 
 ## Alternatively you can use docker
