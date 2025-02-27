@@ -24,16 +24,19 @@ npm install
 ```
 
 ## Set up AssemblyAI API key:
-- Create a .env file in the "AI-Powered-Clinical-Decision-Support-System" directory.
--	Add the following line, replacing the PYTHON_PATH and ASSEMBLYAI_API_KEY with yours:
+- change the PYTHON_PATH in the .env file in the "AI-Powered-Clinical-Decision-Support-System" directory.
+-	Get the python path from the below mentioned command.
+```
+where python
+```
+-	Change the <ASSEMBLYAI_API_KEY> in server\transcription.py from yours
 -	refer to https://www.assemblyai.com/app to get your own assemblyai api key
-```
-PYTHON_PATH=<python-in-you-conda-environment>
-ASSEMBLYAI_API_KEY=<your-api-key>
-```
 ## Start the Vite development server:
 ```
 npm run dev
 ```
 The React app should be live at: http://localhost:5173
+The React app should be live at: http://localhost:5000
+
+## Upload the audio file and wait for sometime to see the results.
 
