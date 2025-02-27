@@ -35,6 +35,7 @@ where python
 ```
 npm run dev
 ```
+![0](https://github.com/user-attachments/assets/604c72af-087d-47f4-bffb-7b704ede86ee)
 
 
 The React app should be live at: http://localhost:5173
