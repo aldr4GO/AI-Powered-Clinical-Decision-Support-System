@@ -47,3 +47,6 @@ The React app should be live at: http://localhost:5000
 ![3](https://github.com/user-attachments/assets/1e18b1fc-eaff-427e-981c-47faa6b2386e)
 ![4](https://github.com/user-attachments/assets/c6ac1806-9156-40cc-89f7-9f21596f709a)
 ![5](https://github.com/user-attachments/assets/8f3e1f3e-09bd-4f8e-946c-b5c1dad23169)
+
+# Will add new features like live transcription, streaming, video/audio call functionality soon
+# Thank You
