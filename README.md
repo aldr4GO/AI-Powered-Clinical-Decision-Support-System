@@ -7,55 +7,33 @@ git clone https://github.com/aldr4GO/AI-Powered-Clinical-Decision-Support-System
 
 cd AI-Powered-Clinical-Decision-Support-System
 ```
+## You would require to set up ollama
+Refer to this link: https://ollama.com/
+
+Create a virtual environment and install dependencies:
+# Create a miniconda virtual environment
+```
+conda create -n test_env Python=3.10.12 anaconda
+conda activate test_env
+```
 
 ## Install the requirements
 ```
 pip install -r requirements.txt
+npm install
 ```
 
-## You would require to set up ollama
-Refer to this link:
-https://ollama.com/
-
-Set up the Backend
-Create a virtual environment and install dependencies:
-# Create virtual environment
-python -m venv venv
-
-# Activate virtual environment
-# Windows
-venv\Scripts\activate
-# Mac/Linux
-source venv/bin/activate
-
-
-
-Set up AssemblyAI API key:
-1.	Create a .env file in the backend/ directory.
-2.	Add the following line, replacing your-api-key with your actual AssemblyAI key:
-ASSEMBLYAI_API_KEY=your-api-key
-Run the backend server:
-cd backend
-python app.py
-The Flask server should start running at: http://localhost:5000
-3. Set up the Frontend
-Navigate to the frontend directory and install dependencies:
-cd ../frontend
-npm install
-Start the Vite development server:
+## Set up AssemblyAI API key:
+- Create a .env file in the "AI-Powered-Clinical-Decision-Support-System" directory.
+-	Add the following line, replacing the PYTHON_PATH and ASSEMBLYAI_API_KEY with yours:
+-	refer to https://www.assemblyai.com/app to get your own assemblyai api key
+```
+PYTHON_PATH=<python-in-you-conda-environment>
+ASSEMBLYAI_API_KEY=<your-api-key>
+```
+## Start the Vite development server:
+```
 npm run dev
+```
 The React app should be live at: http://localhost:5173
 
-
-
-## Alternatively you can use docker
-You call pull the image from docker-hub:
-```
-docker pull ritesh778/apipython
-
-```
-Or build the and run the image:
-```
-docker-compose -f docker-compose-dev.yml up -d --build
-
-```
