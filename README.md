@@ -33,6 +33,7 @@ where python
 -	refer to https://www.assemblyai.com/app to get your own assemblyai api key
 ## Start the Vite development server:
 ```
+npm install
 npm run dev
 ```
 ![0](https://github.com/user-attachments/assets/604c72af-087d-47f4-bffb-7b704ede86ee)
