@@ -40,14 +40,18 @@ npm run dev
 
 
 The React app should be live at: http://localhost:5173
-![1](https://github.com/user-attachments/assets/2dd5358f-1a6e-480b-811a-f37f37800158)
-![2](https://github.com/user-attachments/assets/360a9bb5-3e6e-431d-8736-03427e72dae7)
-The React app should be live at: http://localhost:5000
-
+## press the Start button and iniitalize recording, after completing the discussion,press Stop.
+## OR
 ## Upload the audio file and wait for sometime to see the results.
-![3](https://github.com/user-attachments/assets/1e18b1fc-eaff-427e-981c-47faa6b2386e)
-![4](https://github.com/user-attachments/assets/c6ac1806-9156-40cc-89f7-9f21596f709a)
-![5](https://github.com/user-attachments/assets/8f3e1f3e-09bd-4f8e-946c-b5c1dad23169)
+![image](https://github.com/user-attachments/assets/f1e6c15f-1153-4107-8006-d571fb06b247)
+
+## Results
+![1](https://github.com/user-attachments/assets/a1add57b-ddf6-441b-b591-eec8da86dc87)
+![2](https://github.com/user-attachments/assets/32a94e34-11bf-4c47-9dce-fad399bb4fcc)
+
+![3](https://github.com/user-attachments/assets/4a2fe2ed-1c1b-48aa-8267-c9eb7c08bbf9)
+![4](https://github.com/user-attachments/assets/b37b9ca7-9d68-450f-8d19-4916b8bd3efa)
+![5](https://github.com/user-attachments/assets/2264a442-159d-47ff-9a08-e1b79ab4e1ad)
 
 # Will add new features like live transcription, streaming, video/audio call functionality soon
 # Thank You
