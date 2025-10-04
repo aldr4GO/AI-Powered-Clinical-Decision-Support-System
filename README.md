@@ -1,6 +1,6 @@
 <!--META
 {
-  "title": "AI Powered Clinical Decision Support System"
+  "title": "AI Powered Clinical Decision Support System",
   "desc_portfolio": "Integrated AI models for speech-to-text and text analysis, generating diagnosis faster, ensuring real-time feedback for doctors",
 }
 META-->
