@@ -1,12 +1,4 @@
-<!--META
-{
-  "title": "AI Powered Clinical Decision Support System",
-  "desc_portfolio": "Integrated AI models for speech-to-text and text analysis, generating diagnosis faster, ensuring real-time feedback for doctors",
-  "category": "FullStack"
-}
-META-->
-
-![thumbnail.png](https://github.com/aldr4GO/AI-Powered-Clinical-Decision-Support-System/blob/main/thumbnail.png)
+![thumbnail.png](https://github.com/aldr4GO/AI-Powered-Clinical-Decision-Support-System/blob/main/thumbnail/thumbnail.png)
 
 # AI-Powered Clinical Decision Support System
 This is an **AI-powered clinical decision support system** designed to assist healthcare professionals by transcribing doctor-patient conversations, generating **SOAP notes (Subjective, Objective, Assessment, Plan)**, and providing **Differential Diagnoses.**
